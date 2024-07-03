@@ -1,0 +1,1 @@
+import{i as r}from"./index-B1SfZye3.js";const{localStorage:o}=window;function a(e,s){return new Promise((t,i)=>{r(e)?(o.setItem(e,JSON.stringify(s)),t()):i({message:"key는 문자 타입 이어야 합니다."})})}function g(e){return new Promise((s,t)=>{r(e)?s(JSON.parse(o.getItem(e))):t({message:"key는 문자 타입 이어야 합니다."})})}export{g,a as s};

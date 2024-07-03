@@ -1,0 +1,1 @@
+import{a}from"./index-B1SfZye3.js";function i(t,e){typeof t=="string"&&(t=a(t)),t.insertAdjacentHTML("beforeend",e)}function n(t,e="photo"){return`http://127.0.0.1:8090/api/files/${t.collectionId}/${t.id}/${t[e]}`}const o={isAuth:!1,user:null,token:""};export{o as d,n as g,i};
